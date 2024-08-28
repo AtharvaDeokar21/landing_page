@@ -1,14 +1,13 @@
-// src/components/Navbar.js
 import React from 'react';
-import logo from '../images/logo.png'; // Adjust path if necessary
+import logo from '../images/navbar_logo.png'; // Adjust path if necessary
 
 function Navbar() {
   return (
-    <nav className="w-full bg-[#0D1B2A] text-[#C2CAAA] p-4 fixed top-0 left-0 z-10 flex items-center" style={{ height: '60px' }}>
-      <div className="flex items-center w-full max-w-screen-xl mx-auto">
+    <nav className="w-full bg-[#0D1B2A] text-[#C2CAAA] fixed top-0 left-0 z-10 flex items-center" style={{ height: '60px' }}>
+      <div className="flex items-center w-full max-w-screen-xl mx-auto" style={{ height: '100%' }}>
         {/* Logo Section */}
-        <div className="flex-shrink-0 flex items-center">
-          <img src={logo} alt="Logo" className="w-13 h-13 rounded-full" />
+        <div className="flex-shrink-0 flex items-center" style={{ height: '100%' }}>
+          <img src={logo} alt="Logo" className="h-full w-auto rounded-full block" />
         </div>
 
         {/* Navigation Links */}
