@@ -8,7 +8,7 @@ function Navbar() {
       <div className="flex items-center w-full max-w-screen-xl mx-auto">
         {/* Logo Section */}
         <div className="flex-shrink-0 flex items-center">
-          <img src={logo} alt="Logo" className="w-16 h-16 rounded-full" />
+          <img src={logo} alt="Logo" className="w-13 h-13 rounded-full" />
         </div>
 
         {/* Navigation Links */}
@@ -40,7 +40,7 @@ function Navbar() {
           </li>
           <li>
             <a href="#contact" className="hover:text-white">
-              Contact
+              Contact Us 
             </a>
           </li>
         </ul>
