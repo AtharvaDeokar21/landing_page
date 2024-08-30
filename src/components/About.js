@@ -3,19 +3,20 @@ import React from 'react';
 function About() {
   return (
     <section id="about" className="min-h-screen bg-[#1B263B] text-[#C2CAAA] py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-white">About कृषिNet</h2>
-
+      <div className="container mx-auto">
+      <div className="h-[80px] bg-[#0D1B2A] flex items-center justify-center ">
+        <h2 className="text-4xl font-bold text-center  bg-[#0D1B2A] text-white ">About कृषिNet</h2>
+      </div>
         {/* Overview Section */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
-          <p className="text-[#C2CAAA]">
+        <div className="mb-16 px-10 ">
+          <h3 className="text-2xl font-bold text-white pt-10 mb-4">Our Mission</h3>
+          <p className="text-[#C2CAAA] ">
             कृषिNet is committed to empowering farmers by providing a blockchain-based marketplace that ensures a stable market, transparency, and secure income by eliminating middlemen. Our mission is to create a decentralized platform that brings together farmers and large-scale buyers directly, ensuring fair pricing and protecting farmers from market exploitation.
           </p>
         </div>
 
         {/* Benefits Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-12">
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">Why Choose कृषिNet?</h3>
             <ul className="list-disc list-inside text-[#C2CAAA]">

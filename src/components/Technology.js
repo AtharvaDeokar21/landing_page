@@ -11,11 +11,13 @@ import Evm from '../images/Tech/EVM.png'
 function Technology() {
   return (
     <section id="technology" className="min-h-screen bg-[#1B263B] text-[#C2CAAA] py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-white">Our Technology Stack</h2>
+      <div className="container mx-auto ">
+      <div className="h-[80px] bg-[#0D1B2A] flex items-center justify-center ">
+        <h2 className="text-4xl font-bold text-center  bg-[#0D1B2A] text-white ">Our Technology Stack</h2>
+      </div>
         
         {/* Grid layout for technology details */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 pt-10 px-7 gap-12">
           
           {/* Polygon Protocol */}
           <div className="flex items-center">

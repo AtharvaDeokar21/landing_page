@@ -3,11 +3,13 @@ import React from 'react';
 function HowItWorks() {
   return (
     <section id="how-it-works" className="min-h-screen bg-[#1B263B] text-[#C2CAAA] py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-white">How It Works</h2>
+      <div className="container mx-auto ">
+      <div className="h-[80px] bg-[#0D1B2A] flex items-center justify-center ">
+        <h2 className="text-4xl font-bold text-center  bg-[#0D1B2A] text-white ">How It Works</h2>
+      </div>
 
         {/* Step-by-step process */}
-        <div className="space-y-12"> 
+        <div className="space-y-12 pt-10"> 
           {/* Step 1 */}
           <div className="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-8"> 
             <div className="text-3xl font-bold text-white md:w-1/6 md:text-right md:pr-4"> 
