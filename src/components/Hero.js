@@ -62,7 +62,9 @@ function Hero() {
               <img src={farmerImage} alt="Farmers" className="w-24 h-24 object-cover rounded-full mb-4" />
               <h3 className="text-xl font-bold text-black text-center">Farmers</h3>
               <p className="text-center mt-2 text-black text-sm">Access better market opportunities and secure income through our platform.</p>
-              <button className="bg-[#4E6762] text-white px-4 py-2 rounded mt-4">Explore</button>
+              <button className="bg-[#4E6762] text-white px-4 py-2 rounded mt-4">
+                <a href="#explore">Explore</a>
+              </button>
             </div>
           </SwiperSlide>
           
@@ -82,7 +84,9 @@ function Hero() {
               <img src={companyImage} alt="Companies" className="w-24 h-24 object-cover rounded-full mb-4" />
               <h3 className="text-xl font-bold text-black text-center">Companies</h3>
               <p className="text-center mt-2 text-black text-sm">Secure contracts with farmers for consistent and quality crop supplies.</p>
-              <button className="bg-[#4E6762] text-white px-4 py-2 rounded mt-4">Explore</button>
+              <button className="bg-[#4E6762] text-white px-4 py-2 rounded mt-4">
+                <a href="#explore">Explore</a>
+              </button>
             </div>
           </SwiperSlide>
         </Swiper>

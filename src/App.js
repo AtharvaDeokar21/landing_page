@@ -7,12 +7,14 @@ import Features from './components/Features';
 import About from './components/About';
 import Technology from './components/Technology';
 import HowItWorks from './components/HowItWorks';
+import Explore from './components/Explore';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
+      <Explore />
       <About />
       <Features />
       <HowItWorks />
