@@ -50,7 +50,7 @@ function Farmers() {
           <div
             key={index}
             id={feature.id}
-            className={`flex flex-col object-contain md:flex-row items-center mb-12 ${
+            className={`flex flex-col md:flex-row items-center mb-12 ${
               index % 2 !== 0 ? 'md:flex-row-reverse' : ''
             }`}
           >
@@ -58,7 +58,7 @@ function Farmers() {
               <img
                 src={feature.image}
                 alt={feature.title}
-                className="w-[350px] h-[250px] object-cover rounded-lg shadow-lg mx-auto"
+                className="w-[450px] h-[300px] object-cover rounded-lg shadow-lg mx-auto"
               />
             </div>
             <div className="w-full md:w-1/2 p-4">

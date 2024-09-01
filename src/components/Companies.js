@@ -56,7 +56,7 @@ function Companies() {
               <img
                 src={feature.image}
                 alt={feature.title}
-                className="w-[350px] h-[250px] object-cover rounded-lg shadow-lg mx-auto"
+                className="w-[450px] h-[300px] object-cover rounded-lg shadow-lg mx-auto"
               />
             </div>
             <div className="w-full md:w-1/2 p-4">
