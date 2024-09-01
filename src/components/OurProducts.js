@@ -38,16 +38,18 @@ function OurProducts() {
     <section id="our-products" className="bg-[#1B263B] text-[#C2CAAA] py-16 ">
       <div className="max-w-7xl mx-auto">
         <div className="h-[80px] bg-[#0D1B2A] flex items-center justify-center mb-4">
-            <h2 className="text-4xl font-bold text-center  bg-[#0D1B2A] text-white">Our Products</h2>
+          <h2 className="text-4xl font-bold text-center bg-[#0D1B2A] text-white">Our Solutions</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-4">
           {products.map((product, index) => (
             <div key={index} className="bg-[#0D1B2A] rounded-lg shadow-lg overflow-hidden">
-              <img
-                src={product.image}
-                alt={product.title}
-                className="w-full h-48 object-cover"
-              />
+              <div className="w-full h-48 flex items-center justify-center">
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="w-full h-full object-contain"
+                />
+              </div>
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">{product.title}</h3>
                 <p className="text-sm">{product.description}</p>

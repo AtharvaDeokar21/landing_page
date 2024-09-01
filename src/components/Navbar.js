@@ -30,7 +30,7 @@ function Navbar() {
           </li>
           <li>
             <a href="#our-products" className="hover:text-white">
-              Our Products
+              Our Solutions
             </a>
           </li>
           <li>

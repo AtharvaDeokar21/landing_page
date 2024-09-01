@@ -42,7 +42,7 @@ function Companies() {
     <section id="companies" className="bg-[#1B263B] text-[#C2CAAA] py-16">
       <div className="max-w-7xl mx-auto">
         <div className="h-[80px] bg-[#0D1B2A] flex items-center justify-center ">
-            <h2 className="text-4xl font-bold text-center  bg-[#0D1B2A] text-white ">Why Companies Should Choose कृषिNet</h2>
+          <h2 className="text-4xl font-bold text-center bg-[#0D1B2A] text-white">Why Companies Should Choose कृषिNet</h2>
         </div>
         {features.map((feature, index) => (
           <div
@@ -56,7 +56,7 @@ function Companies() {
               <img
                 src={feature.image}
                 alt={feature.title}
-                className="w-full h-full object-cover rounded-lg shadow-lg"
+                className="w-[350px] h-[250px] object-cover rounded-lg shadow-lg mx-auto"
               />
             </div>
             <div className="w-full md:w-1/2 p-4">
