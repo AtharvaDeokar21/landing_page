@@ -1,6 +1,6 @@
 import React from 'react';
 // Replace the paths below with the actual paths to your selected images
-import stableMarketImage from '../images/feature1.png';
+import stableMarketImage from '../images/feature_1.png';
 import partialContractImage from '../images/feature2.png';
 import regulatoryIntegrationImage from '../images/feature3.png';
 

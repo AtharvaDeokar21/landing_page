@@ -32,19 +32,6 @@ function Technology() {
             </div>
           </div>
 
-          {/* EVM (Ethereum Virtual Machine) */}
-          <div className="flex items-center">
-            <div className="w-1/3 flex justify-center">
-              <img src={Evm} alt="EVM" className="w-20 h-20 object-contain"/>
-            </div>
-            <div className="w-2/3">
-              <h3 className="text-2xl font-bold text-white mb-2">EVM (Ethereum Virtual Machine)</h3>
-              <p>
-                The integration with EVM allows for the execution of smart contracts, providing a secure and efficient mechanism for handling agricultural contracts. EVM compatibility ensures that our smart contracts are robust, secure, and interoperable with other Ethereum-based systems.
-              </p>
-            </div>
-          </div>
-
           {/* Polygon Mainnet */}
           <div className="flex items-center">
             <div className="w-1/3 flex justify-center">
@@ -54,6 +41,19 @@ function Technology() {
               <h3 className="text-2xl font-bold text-white mb-2">Polygon Mainnet</h3>
               <p>
                 Deploying our application on the Polygon Mainnet provides a secure and scalable environment, ensuring high availability and security for transactions. This network enables us to offer reliable and efficient contract farming services to farmers and buyers.
+              </p>
+            </div>
+          </div>
+
+          {/* EVM (Ethereum Virtual Machine) */}
+          <div className="flex items-center">
+            <div className="w-1/3 flex justify-center">
+              <img src={Evm} alt="EVM" className="w-20 h-20 object-contain"/>
+            </div>
+            <div className="w-2/3">
+              <h3 className="text-2xl font-bold text-white mb-2">EVM (Ethereum Virtual Machine)</h3>
+              <p>
+                The integration with EVM allows for the execution of smart contracts, providing a secure and efficient mechanism for handling agricultural contracts. EVM compatibility ensures that our smart contracts are robust, secure, and interoperable with other Ethereum-based systems.
               </p>
             </div>
           </div>
