@@ -10,7 +10,7 @@ function Farmers() {
   const features = [
     {
       id: 'flexible-contract-options', // Unique ID for navigation
-      title: 'Flexible Contract Options',
+      title: 'Partial Contract Options',
       description:
         'कृषिNet offers farmers the ability to engage in flexible, partial contracts that allow phased deliveries and payments. This feature provides security and adaptability to meet individual farming needs.',
       image: partialContractImage,

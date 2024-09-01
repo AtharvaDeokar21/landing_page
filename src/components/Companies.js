@@ -16,6 +16,13 @@ function Companies() {
       image: profitImage,
     },
     {
+      id: 'direct-farm-sourcing', // Unique ID for navigation
+      title: 'Direct Farm-to-Business Sourcing',
+      description:
+        'Eliminate the middlemen and establish direct relationships with farmers. This feature ensures transparency, traceability, and higher quality standards, benefiting both companies and farmers.',
+      image: directSourcingImage,
+    },
+    {
       id: 'trusted-api-integration', // Unique ID for navigation
       title: 'Seamless Integration with Trusted APIs',
       description:
@@ -28,13 +35,6 @@ function Companies() {
       description:
         'Experience a hassle-free process from procurement to delivery. कृषिNet simplifies operational workflows, enhancing efficiency and allowing companies to focus on their core business activities.',
       image: convenienceImage,
-    },
-    {
-      id: 'direct-farm-sourcing', // Unique ID for navigation
-      title: 'Direct Farm-to-Business Sourcing',
-      description:
-        'Eliminate the middlemen and establish direct relationships with farmers. This feature ensures transparency, traceability, and higher quality standards, benefiting both companies and farmers.',
-      image: directSourcingImage,
     },
   ];
 

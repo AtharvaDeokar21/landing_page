@@ -15,7 +15,7 @@ function About() {
           </p>
         </div>
 
-        {/* Benefits Section */}
+        {/* Benefits Section
         <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-12">
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">Why Choose कृषिNet?</h3>
@@ -36,16 +36,16 @@ function About() {
                 <strong>Regulatory Compliance:</strong> Integrated with existing government structures for dispute resolution and insurance, ensuring smooth operations.
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          <div>
-            <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
+          <div className='mx-4'>
+            <h3 className="text-2xl font-bold text-white mb-4 ">Our Vision</h3>
             <p className="text-[#C2CAAA]">
               We envision a future where every farmer, regardless of scale, has direct access to markets, secure income, and a stable economic environment. By leveraging blockchain technology, कृषिNet aims to revolutionize the agricultural sector, making it more efficient, transparent, and fair for everyone involved. We believe that by removing barriers, we can create a more sustainable and prosperous future for farmers across the globe.
             </p>
           </div>
-        </div>
       </div>
+      
     </section>
   );
 }
